@@ -9,3 +9,11 @@
 	* Procfile: `web: voila --port=$PORT --no-browser notebookName.ipynb`</pre>
 1. Push to a git repo, create a heroku app, push to heroku
 1. Use `heroku domains:add jupyter.example.com`
+
+# Create a virtual environment for Jupyter
+
+`python -m venv venv`
+`source venv/bin/activate`
+`pip install jupyter numpy matplotlib`
+`jupyter notebook`
+ 
